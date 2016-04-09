@@ -57,6 +57,7 @@ def fetchImages(q,r,choice):
             os.mkdir(sdsd)
         fullfilename = os.path.join(sdsd, filename)
         urllib.urlretrieve(url2, fullfilename)
+    print 'Download '+'\033[1m\033[32m'+'complete!'+'\033[0m'
 
 def menu():
     print
